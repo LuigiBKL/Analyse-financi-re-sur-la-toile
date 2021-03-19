@@ -3,6 +3,8 @@
 L'objectif est de se servir d'un "robot" (scrapping) qui ira chercher les données pour nous à notre place à chaque fois que l'on s'en servira et à partir de ces données récupéreés on pourra la mettre dans une base de donnée de notre choix afin de faire des graphes à notre guise avec [grafana](https://grafana.com/).
 La configuration du robot se fait via le fichier `[apple officiel.ipynb](/apple officiel.ipynb)` 
 
+On a utilisé grafana pour faire nos graphes par habitude et parce qu'il est facile à utiliser, mysql pour notre base de donnée étant donné que l'utilisation de grafana avec mysql  est gratuite .
+
 Toute la construction des conteneurs, la configuration de grafana et l'insertion des données se fait à partir d'un [docker-compose.yml](/docker-compose.yml)
 
 On a choisi de prendre comme source de données [le site sur la bourse d'Apple](https://www.nasdaq.com/market-activity/stocks/aapl/historical/)
