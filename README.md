@@ -1,6 +1,6 @@
 # Analyse-financiere-sur-la-toile
 
-L'objectif est se servir d'un "robot" qui ira chercher les données pour nous à notre place à chaque fois que l'on s'en servira et à partir de ces données récupéreés on pourra la mettre dans une base de donnée de notre choix afin de faire des graphes à notre guise.
+L'objectif est se servir d'un "robot" (scrapping) qui ira chercher les données pour nous à notre place à chaque fois que l'on s'en servira et à partir de ces données récupéreés on pourra la mettre dans une base de donnée de notre choix afin de faire des graphes à notre guise.
 
 On a choisi de prendre comme source de données [le site sur la bourse d'Apple](https://www.nasdaq.com/market-activity/stocks/aapl/historical/)
 
@@ -14,7 +14,11 @@ On aura besoin du logiciel suivant:
 
 ![image](/Capture1.png)
 
-`##Infos supplémentaires:`
+`##Infos supplémentaires:` Merci de se reférer à mon projet `https://github.com/LuigiBKL/Docker_Grafana` pour savoir à quoi servent les fichiers se trouvant dans [datasources](/datasources),[dashboards](/dashboards)
+
+##A noter que le fichier [geckodriver.exe](/geckodriver.exe) est necessaire au fichier `[apple officiel.ipynb](/apple officiel.ipynb)` pour la configuration de notre "robot" à savoir que chaque configuration est spécifique à un navigateur web
+
+
 ##Manipulation à faire
 
 Ouvrir le cmd se situer dans le dossier ou l'on souhaite travailer à l'aide de la commande 
