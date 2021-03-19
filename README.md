@@ -30,6 +30,8 @@ puis faire:
 - `git clone https://github.com/LuigiBKL/Analyse-financi-re-sur-la-toile`
 - `docker-compose up -d`
 Une fois terminé on a nos conteneurs
+
+
 ![image](img_conteneur.png)
 
 On peut donc lancer les serveur de grafana et visualiser nos graphes
