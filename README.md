@@ -19,7 +19,9 @@ On aura besoin du logiciel suivant:
 
 `##Infos supplémentaires:` Merci de se reférer à mon projet `https://github.com/LuigiBKL/Docker_Grafana` pour savoir à quoi servent les fichiers se trouvant dans [datasources](/datasources),[dashboards](/dashboards)
 
-##A noter que le fichier [geckodriver.exe](/geckodriver.exe) est necessaire au fichier `[apple officiel.ipynb](/apple officiel.ipynb)` pour la configuration de notre "robot" à savoir que chaque configuration est spécifique à un navigateur web
+## A noter que le fichier [geckodriver.exe](/geckodriver.exe) est necessaire au fichier `[apple officiel.ipynb](/apple officiel.ipynb)` pour la configuration de notre "robot" à savoir que chaque configuration est spécifique à un navigateur web
+
+![image](gecko.png)
 
 
 ## Manipulations à faire
