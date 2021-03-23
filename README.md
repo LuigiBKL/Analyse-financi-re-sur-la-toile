@@ -17,7 +17,7 @@ Une fois les données récupérées elle sont mises dans un dataset et ensuite e
 On aura besoin du logiciel suivant:
 - [Docker desktop pour windows](https://www.docker.com/products/docker-desktop) pour gérer nos diffirénts conteneurs
 
-![image](img_conteneur)
+![image](img_conteneur.png)
 
 `#### Infos supplémentaires:` Merci de se reférer à mon projet `https://github.com/LuigiBKL/Docker_Grafana` pour savoir à quoi servent les fichiers se trouvant dans [datasources](/datasources),[dashboards](/dashboards)
 
